@@ -1,0 +1,92 @@
+[
+    {
+        "id_producer": "1",
+        "producer_name": "Kautzer, Feeney and Koch",
+        "producer_CIF": "A12345678",
+        "producer_address": "6 Scofield Alley"
+    },
+    {
+        "id_producer": "2",
+        "producer_name": "Thompson, Pollich and Farrell",
+        "producer_CIF": "A12345678",
+        "producer_address": "3276 Marcy Lane"
+    },
+    {
+        "id_producer": "3",
+        "producer_name": "Halvorson-Barrows",
+        "producer_CIF": "A12345678",
+        "producer_address": "24 Sachtjen Hill"
+    },
+    {
+        "id_producer": "4",
+        "producer_name": "Kris, Blick and Kuvalis",
+        "producer_CIF": "A12345678",
+        "producer_address": "5 Village Plaza"
+    },
+    {
+        "id_producer": "5",
+        "producer_name": "Nienow, Nikolaus and Quigley",
+        "producer_CIF": "A12345678",
+        "producer_address": "8659 Steensland Hill"
+    },
+    {
+        "id_producer": "6",
+        "producer_name": "Frami, Medhurst and Hansen",
+        "producer_CIF": "A12345678",
+        "producer_address": "60892 Londonderry Drive"
+    },
+    {
+        "id_producer": "7",
+        "producer_name": "Kunde LLC",
+        "producer_CIF": "A12345678",
+        "producer_address": "33188 7th Junction"
+    },
+    {
+        "id_producer": "8",
+        "producer_name": "Armstrong and Sons",
+        "producer_CIF": "A12345678",
+        "producer_address": "37 Upham Center"
+    },
+    {
+        "id_producer": "9",
+        "producer_name": "Lindgren-Hegmann",
+        "producer_CIF": "A12345678",
+        "producer_address": "58 Arrowood Court"
+    },
+    {
+        "id_producer": "10",
+        "producer_name": "Herzog Inc",
+        "producer_CIF": "A12345678",
+        "producer_address": "59 Caliangt Circle"
+    },
+    {
+        "id_producer": "11",
+        "producer_name": "Parker, Wuckert and VonRueden",
+        "producer_CIF": "A12345678",
+        "producer_address": "9282 Maryland Junction"
+    },
+    {
+        "id_producer": "12",
+        "producer_name": "Lehner LLC",
+        "producer_CIF": "A12345678",
+        "producer_address": "4791 Hudson Hill"
+    },
+    {
+        "id_producer": "13",
+        "producer_name": "Altenwerth LLC",
+        "producer_CIF": "A12345678",
+        "producer_address": "5 Cottonwood Center"
+    },
+    {
+        "id_producer": "14",
+        "producer_name": "Lind, Sauer and Sauer",
+        "producer_CIF": "A12345678",
+        "producer_address": "58194 Havey Crossing"
+    },
+    {
+        "id_producer": "15",
+        "producer_name": "Pacocha, Jacobi and Kunze",
+        "producer_CIF": "A12345678",
+        "producer_address": "8979 Anniversary Pass"
+    }
+]

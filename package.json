@@ -1,0 +1,34 @@
+{
+  "name": "proyecto_fullstack_ft-02-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "feed_db": "node seed/product-seeder.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeroPG/Proyecto_FullStack_FT-02-24.git"
+  },
+  "author": "Veronica Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeroPG/Proyecto_FullStack_FT-02-24/issues"
+  },
+  "homepage": "https://github.com/VeroPG/Proyecto_FullStack_FT-02-24#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
