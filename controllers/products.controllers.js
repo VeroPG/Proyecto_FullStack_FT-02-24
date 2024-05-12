@@ -1,4 +1,4 @@
-const Products = require("../models/products.model"); // BBDD
+const Product = require("../models/products.model"); // BBDD
 
 // GET http://localhost:3000/api/products?page=1&limit=2
 // GET http://localhost:3000/api/products?page=2&limit=3
@@ -32,8 +32,8 @@ const getProducts = async (req, res) => {
 
 
 const product = {
-    getProduct,
+    getProducts,
 
 }
-module.exports = products;
+module.exports = product;
 

@@ -7,6 +7,6 @@ const producers = require('../controllers/producers.controllers')
 /*************SECCIÓN  PRODUCTOS**********/
 // /products/3
 // /products
-router.get('/producers', producers.getProducer);
+router.get('/producers', producers.getProducers);
 
 module.exports = router;

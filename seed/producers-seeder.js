@@ -1,4 +1,7 @@
-[
+var mongoose = require("mongoose");
+var Producer = require("../models/producers.model");
+
+var newProducers = [
     {
         "id_producer": "1",
         "producer_name": "Kautzer",
@@ -41,4 +44,15 @@
         "producer_CIF": "A12345678",
         "producer_address": "33188 7th Junction"
     }
-]
+
+    ];
+
+
+const seedDB = async () =>{
+    await Producer.deleteMany();
+    await Producer.insertMany(newProducers);
+};
+
+seedDB().then(()=>{
+    mongoose.connection.close();
+})
