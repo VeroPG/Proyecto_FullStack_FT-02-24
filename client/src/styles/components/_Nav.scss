@@ -1,0 +1,42 @@
+
+.nav {
+    display: flex;
+    width: 90vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 3vh;
+
+    &>ul {
+        display: flex;
+        
+        justify-content: space-around;
+        list-style: none;
+        width: 90vw;
+    }
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: inherit;
+  }
+  
+  a:hover {
+    color: #e20808;
+  }
+
+  img {
+    width: 10vw;
+    height: auto;
+  }
+
+
+  /* MEDIA QUERIES PARA ESCRITORIO */
+@media only screen and (min-width: 1200px) {
+    a {
+        font-size: 1.4rem;
+    }
+
+}
