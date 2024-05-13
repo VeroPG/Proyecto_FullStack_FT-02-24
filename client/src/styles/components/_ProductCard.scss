@@ -76,3 +76,40 @@ input[type="checkbox"] {
     text-decoration: inherit;
     text-align: center;
 }
+
+.modal-content {
+    background-color: #fefefe; /* Fondo del modal */
+    margin: 15% auto; /* Centrado vertical y horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+    max-width: 600px; /* Ancho máximo del modal */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Botón de cerrar */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+    /* MEDIA QUERIES PARA ESCRITORIO */
+    @media only screen and (min-width: 1200px) {
+        .ProductsCard{
+            font-size: 1.8rem;
+            padding: 2% 5%;
+            height: 10vh;
+        
+        }
+    
+    }

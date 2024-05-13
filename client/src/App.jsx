@@ -5,12 +5,13 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import { ProductsContext } from "./context/ProductsContext"
+import  "./styles/styles.scss"
 // import './App.css'
 // import { Router } from 'express'
 
 function App() {
   const [products, setProducts] = useState([]);
-
+  
   return (
     <>
       <BrowserRouter>
