@@ -16,7 +16,7 @@ const Nav = () => {
           >Home</Link>
         </li>
         <li className="nav-link">
-          <Link to="/search" 
+          <Link to="/" 
           className="nav-link"
           >Search</Link>
         </li>
