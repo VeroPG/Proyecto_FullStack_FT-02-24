@@ -52,7 +52,7 @@ input[type="checkbox"] {
     object-fit: cover;
 }
  
-.description{
+.modal-content > .description{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ input[type="checkbox"] {
     text-align: center;
 }
 
-.prize{
+.modal-content >.price{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,10 +80,9 @@ input[type="checkbox"] {
 .modal-content {
     background-color: #fefefe; /* Fondo del modal */
     margin: 15% auto; /* Centrado vertical y horizontalmente */
-    padding: 20px;
+    padding: 5%;
     border: 1px solid #888;
-    width: 80%; /* Ancho del modal */
-    max-width: 600px; /* Ancho máximo del modal */
+   width: 80vw; /* Ancho máximo del modal */
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
   }
@@ -108,8 +107,51 @@ input[type="checkbox"] {
         .ProductsCard{
             font-size: 1.8rem;
             padding: 2% 5%;
-            height: 10vh;
+            width: 80vw;
         
         }
+        .modal-content {
+            background-color: #fefefe; /* Fondo del modal */
+            margin: 15% auto; /* Centrado vertical y horizontalmente */
+            padding: 5%;
+            border: 1px solid #888;
+           width: 60vw; /* Ancho máximo del modal */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+          }
+          .add-fav {
+            display: flex;
+            padding: 5px;
+            cursor: pointer;
+            position: relative;
+            transition: all .5s ease;
+            
+        }
+        
+        .fa-solid {
+            font-size: 1.6rem;
+            color: #7a7a7a;
+            position: relative;
+            }
+        
+            .fa-star{font-size: 1.6rem;
+            color: #ffd000fa;
+            position: relative;
+        
+            }
+        .fa-solid:hover,
+        .fa-solid:checked
+        {
+            font-size: 1.6rem;
+            color: #f57fa6;
+            position: relative;
+            }        
+                
+        input[type="checkbox"] { 
+            font-size: 1.75rem;
+            position: absolute;
+            opacity: 0;
+            }
+          
     
     }
