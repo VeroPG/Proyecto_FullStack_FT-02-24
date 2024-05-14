@@ -55,7 +55,7 @@ function ProductList({ products }) {
           <option value="titleDesc">Título (Z-A)</option>
         </select>
       </div>
-      <section>
+      <section className="ProducList">
         {currentProducts.map((product) => (
           <ProductCard key={product.id_product} product={product} />
         ))}

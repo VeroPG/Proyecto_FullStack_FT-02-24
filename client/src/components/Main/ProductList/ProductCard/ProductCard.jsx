@@ -37,7 +37,13 @@ function ProductCard({ product }) {
             <h2>{title}</h2>
             <p>{description}</p>
             <p>Precio: {price} €</p>
-            <p>Valoración: {rating}</p>
+
+            <p>Valoración: {rating} <i className="fa-solid fa-star"></i></p>
+            
+            <label className="add-fav">
+              Añadir a favoritos: <input type="checkbox" />
+              <i className="fa-solid fa-heart"></i>
+            </label>
             <p>Productor: {producer_id.producer_name}</p>
           </div>
         </div>
